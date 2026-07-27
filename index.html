@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;600;700;800&amp;family=Public+Sans:wght@400;500;600&amp;display=swap" rel="stylesheet">
+<style>
+body{margin:0;background:#ffffff;color:#141414;font-family:'Public Sans',sans-serif;-webkit-font-smoothing:antialiased}
+a{color:#141414;text-decoration:none}a:hover{color:#8a6700}
+</style>
+<script src="./image-slot.js"></script>
+</helmet>
+<div style="border-top:5px solid #FFBD00;background:#ffffff;border-bottom:1px solid #eae8e2">
+  <div style="max-width:1080px;margin:0 auto;padding:16px 28px;display:flex;align-items:center;justify-content:space-between;gap:24px;flex-wrap:wrap">
+    <a href="./index.html" style="display:flex;align-items:center;gap:14px">
+      <img src="./assets/sic-logo.png" alt="Milwaukee Panthers" style="height:44px;width:auto;display:block">
+      <div>
+        <div style="font-family:Archivo,sans-serif;font-weight:800;font-size:18px;letter-spacing:-0.01em">Student Investment Club</div>
+        <div style="font-size:11px;letter-spacing:0.12em;text-transform:uppercase;color:#6b6a66;margin-top:2px">at University of Wisconsin–Milwaukee</div>
+      </div>
+    </a>
+    <div style="display:flex;gap:30px;align-items:center">
+      <a href="./index.html" style="font-family:Archivo,sans-serif;font-weight:700;font-size:14px;padding:6px 0;border-bottom:3px solid #FFBD00">Overview</a>
+      <a href="./portfolio.html" style="font-family:Archivo,sans-serif;font-weight:600;font-size:14px;color:#55544f;padding:6px 0;border-bottom:3px solid transparent" style-hover="color:#141414">Portfolio</a>
+      <a href="./membership.html" style="font-family:Archivo,sans-serif;font-weight:600;font-size:14px;color:#55544f;padding:6px 0;border-bottom:3px solid transparent" style-hover="color:#141414">Membership</a>
+    </div>
+  </div>
+</div>
+<div data-screen-label="Banner" style="width:100%;height:320px;border-bottom:5px solid #FFBD00">
+  <image-slot id="hero-banner" src="./assets/hero-banner.webp" shape="rect" placeholder="Drop a UWM campus photo (banner)"></image-slot>
+</div>
+<div data-screen-label="Hero" style="max-width:1080px;margin:0 auto;padding:56px 28px 48px 28px;display:grid;grid-template-columns:1.6fr 1fr;gap:48px;align-items:center">
+  <div>
+  
+  <h1 style="font-family:Archivo,sans-serif;font-weight:800;font-size:clamp(40px,5.5vw,60px);line-height:1.05;letter-spacing:-0.02em;margin:0;max-width:820px;text-wrap:pretty">UWM Student-Led Investment Fund</h1>
+  <p style="font-size:19px;line-height:1.6;color:#44433f;max-width:620px;margin:24px 0 0 0;text-wrap:pretty">The Student Investment Club (SIC) meets every week to discuss marekts, stocks, hear pitches, and vote on what goes in ande out of the portfolio. No finance background is required.</p>
+  <div style="display:flex;gap:14px;margin-top:32px;flex-wrap:wrap">
+    <a href="./membership.html" style="background:#FFBD00;color:#141414;font-family:Archivo,sans-serif;font-weight:700;font-size:15px;padding:13px 26px;border-radius:4px" style-hover="background:#f0b100;color:#141414">How to join</a>
+    <a href="./portfolio.html" style="background:#141414;color:#ffffff;font-family:Archivo,sans-serif;font-weight:700;font-size:15px;padding:13px 26px;border-radius:4px" style-hover="background:#333230;color:#ffffff">See the portfolio</a>
+  </div>
+  </div>
+  <div style="border:1px solid #eae8e2;border-radius:10px;background:#ffffff;padding:32px 32px 30px 32px">
+    <div style="display:inline-block;font-family:Archivo,sans-serif;font-weight:800;font-size:20px;border-bottom:4px solid #FFBD00;padding-bottom:6px">Weekly meeting</div>
+    <div style="font-family:Archivo,sans-serif;font-weight:800;font-size:28px;line-height:1.25;margin-top:22px">Mondays<br>6:00–7:00 PM</div>
+    <div style="font-size:16px;color:#55544f;margin-top:8px">Lubar Hall · Room 100</div>
+  </div>
+</div>
+<div data-screen-label="About" style="max-width:1080px;margin:0 auto;padding:64px 28px 0 28px">
+  <div>
+    <h2 style="font-family:Archivo,sans-serif;font-weight:800;font-size:30px;letter-spacing:-0.01em;margin:0 0 16px 0">What we do</h2>
+    <p style="font-size:16.5px;line-height:1.7;color:#3a3935;margin:0 0 14px 0;max-width:720px;text-wrap:pretty">The SIC is open to any UWM student who's curious about finance and investments. A typical meeting may include an update on the portfolio, sector presentations, guest speakers, a stock pitch, or a combination.</p>
+    <p style="font-size:16.5px;line-height:1.7;color:#3a3935;margin:0;max-width:720px;text-wrap:pretty">Many members are Lubar students, but plenty aren't. If you want to make a case for a stock, or learn how, you'd be a great fit.</p>
+    <div style="margin-top:28px;border-top:1px solid #eae8e2;padding-top:22px">
+      <div style="font-family:Archivo,sans-serif;font-weight:800;font-size:17px;margin-bottom:12px">Want to be a member?</div>
+      <div style="display:flex;gap:12px;flex-wrap:wrap">
+        <a href="#" style="background:#FFBD00;color:#141414;font-family:Archivo,sans-serif;font-weight:700;font-size:14px;padding:11px 22px;border-radius:4px" style-hover="background:#f0b100;color:#141414">Join our Teams group</a>
+        <a href="#" style="background:#141414;color:#ffffff;font-family:Archivo,sans-serif;font-weight:700;font-size:14px;padding:11px 22px;border-radius:4px" style-hover="background:#333230;color:#ffffff">Join the email list</a>
+      </div>
+    </div>
+  </div>
+</div>
+<div data-screen-label="Board" style="max-width:1080px;margin:0 auto;padding:72px 28px 0 28px">
+  <h2 style="font-family:Archivo,sans-serif;font-weight:800;font-size:30px;letter-spacing:-0.01em;margin:0 0 8px 0">Current board</h2>
+  <p style="font-size:16px;color:#55544f;margin:0 0 32px 0">2026–2027</p>
+  <div style="display:flex;flex-wrap:wrap;justify-content:center;gap:32px 40px">
+    <sc-for list="{{ board }}" as="m" hint-placeholder-count="6">
+      <div style="display:flex;flex-direction:column;align-items:center;text-align:center;gap:12px;width:170px">
+        <image-slot id="{{ m.slot }}" src="{{ m.src }}" shape="circle" style="width:132px;height:132px" placeholder="Photo"></image-slot>
+        <div>
+          <div style="font-family:Archivo,sans-serif;font-weight:700;font-size:16px">{{ m.name }}</div>
+          <div style="font-family:Archivo,sans-serif;font-size:12.5px;letter-spacing:0.08em;text-transform:uppercase;color:#c9950a;font-weight:800;margin-top:3px">{{ m.role }}</div>
+        </div>
+      </div>
+    </sc-for>
+  </div>
+</div>
+<div data-screen-label="Contact" style="max-width:1080px;margin:72px auto 0 auto;padding:0 28px 88px 28px">
+  <div style="background:#141414;border-radius:10px;padding:30px 36px;display:flex;align-items:center;justify-content:space-between;gap:28px;flex-wrap:wrap">
+    <h2 style="font-family:Archivo,sans-serif;font-weight:800;font-size:24px;letter-spacing:-0.01em;margin:0;color:#ffffff">Questions?</h2>
+    <a href="mailto:sic@uwmstudentfund.org" style="background:#FFBD00;color:#141414;font-family:Archivo,sans-serif;font-weight:700;font-size:15px;padding:14px 28px;border-radius:4px;white-space:nowrap" style-hover="background:#f0b100;color:#141414">Email the club</a>
+  </div>
+</div>
+<div style="border-top:1px solid #eae8e2;background:#ffffff">
+  <div style="max-width:1080px;margin:0 auto;padding:22px 28px;display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap;font-size:13.5px;color:#6b6a66">
+    <div>Student Investment Club at University of Wisconsin–Milwaukee</div>
+    <a href="mailto:sic@uwmstudentfund.org" style="color:#6b6a66">sic@uwmstudentfund.org</a>
+  </div>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script>
+class Component extends DCLogic {
+  renderVals() {
+    const board = [
+      ['AJ Lohr','President','AJ.png'],
+      ['Blake Hansen','Head Portfolio Manager','Blake.jpg'],
+      ['Lilly Keillor','Vice President','Lilly.png'],
+      ['Keoni Bottorff','Treasurer','Keoni.png'],
+      ['Bergen Fischer','Secretary','Bergen.png'],
+      ['Andrew Stonestreet','Assistant Portfolio Manager','Andrew.jpg'],
+      ['Elizabeth Christenson','Officer','Eliz.jpg'],
+      ['Alex Lopez','Officer','Alex.jpg'],
+      ['Fede Ordonez','Officer','Fede.png']
+    ];
+    return { board: board.map((b, i) => ({ name: b[0], role: b[1], slot: 'board-' + i, src: b[2] ? './assets/board/' + b[2] : '' })) };
+  }
+}
+</script>
+</body>
+</html>
